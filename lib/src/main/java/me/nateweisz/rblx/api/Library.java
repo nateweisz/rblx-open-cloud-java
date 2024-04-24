@@ -1,7 +1,7 @@
 package me.nateweisz.rblx.api;
 
 public class Library {
-    public boolean someLibraryMethod() {
-        return true;
-    }
+	public boolean someLibraryMethod() {
+		return true;
+	}
 }
