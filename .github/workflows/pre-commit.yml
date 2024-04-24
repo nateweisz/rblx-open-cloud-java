@@ -2,6 +2,9 @@ name: Build Gradle project
 
 on:
   pull_request:
+    branches: [ "main" ]
+  merge_group:
+    types: [checks_requested]
 
 jobs:
   build-gradle-project:
