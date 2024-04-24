@@ -18,7 +18,7 @@ dependencies {
 spotless {
     java {
 	removeUnusedImports()
-	googleJavaFormat()
+	eclipse()
 	formatAnnotations()
     }
 }
