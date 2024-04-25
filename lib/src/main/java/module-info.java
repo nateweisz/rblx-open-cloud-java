@@ -1,3 +1,6 @@
 module me.nateweisz.rblx {
-	exports me.nateweisz.rblx.api;
+	requires java.net.http;
+    requires com.fasterxml.jackson.databind;
+
+    exports me.nateweisz.rblx.api;
 }
