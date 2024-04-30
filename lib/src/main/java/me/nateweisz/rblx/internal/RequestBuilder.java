@@ -45,4 +45,8 @@ public class RequestBuilder {
 		requestBuilder.setHeader(key, value);
 		return this;
 	}
+
+    public HttpRequest.Builder getRequestBuilder() {
+        return requestBuilder;
+    }
 }
